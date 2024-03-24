@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Navigate to={'/reservation'} />} />
           <Route path='/reservation' element={<DefaultLayout><Reservation /></DefaultLayout>} />
-          <Route path='/admin' element={<DefaultLayout><Dashboard /></DefaultLayout>} />
+          <Route path='/dashboard' element={<DefaultLayout><Dashboard /></DefaultLayout>} />
         </Routes>
       </Router>
     </div>

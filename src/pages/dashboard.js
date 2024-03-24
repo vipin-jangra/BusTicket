@@ -76,7 +76,7 @@ function Dashboard(){
         // Update the seat data using setDataToRow
         updateSeatsData(updatedSeatsData);
         message.success("Ticket Deleted Successfully");
-        window.location.reload();
+        // window.location.reload();
     
     }
 
@@ -108,7 +108,7 @@ function Dashboard(){
             updateSeatsData(updatedSeatsData);
             closeModal()
             message.success("Ticket Updated successfully");
-            window.location.reload();
+            //window.location.reload();
     }
 
     const handleEdit = ()=>{

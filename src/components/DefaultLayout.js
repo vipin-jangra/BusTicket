@@ -24,10 +24,10 @@ function DefaultLayout({children}){
             title:"Dashboard",
             icon : <i class="ri-macbook-line"></i>,
             onClick : ()=>{
-                navigate("/admin");
+                navigate("/dashboard");
                 setToggleVisiblity(!toggleVisiblity);
             },
-            path : "/admin",
+            path : "/dashboard",
         },
     ];
 
