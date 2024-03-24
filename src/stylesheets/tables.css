@@ -1,0 +1,70 @@
+.dash-main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.dash-table {
+  overflow-y: scroll; /* Make the table scrollable vertically */
+  background-color: white;
+  margin: 10px;
+  max-height: calc(100vh - 170px); /* Set a maximum height to prevent it from occupying the full viewport height */
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  white-space: nowrap; /* Prevent text wrapping inside table cells */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+}
+
+tbody tr td {
+  width: 30px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.table-buttons {
+  border: 2px solid #04aa6d;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+.table-buttons:hover {
+  background-color: #04aa6d;
+  /* Green */
+  color: white;
+}

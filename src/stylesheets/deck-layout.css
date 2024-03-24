@@ -1,0 +1,72 @@
+.deck-seat,.deck-sleeper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 10px;
+    padding-left: 30px;
+    width: 500px;
+    height: auto;
+}
+.deck-seat{
+    padding-bottom: 10px;
+    height: auto;
+    padding-left: 0px;
+}
+.deck-main{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: -25px;
+}
+
+.deck-layout{
+    overflow: hidden;
+}
+
+.seat{
+    border: 1px solid #000;
+    width: 60px;
+    height: 30px;
+
+}
+.seat-chair{
+    border: 1px solid #000;
+    width: 10px;
+    height: 15px;
+    float: right !important;
+    margin: 5px 2px 5px;
+    
+}
+.spec-seat{
+    border: 1px solid black;
+    width: 20px;
+    height: 50px;
+}
+
+.spec-seat-upper{
+    border: 1px solid black;
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    bottom: 70px;
+}
+
+.spec-seat-chair{
+    border: 1px solid black;
+    width: 8px;
+    height: 30px;
+    float: right !important;
+    margin: 5px 2px 5px;
+}
+.deck-lower{
+    position: relative;
+   
+}
+.deck-upper{
+    position: relative;
+    top:40px;
+}
+
+.occupied{
+    background-color: rgb(167, 166, 166);
+}
