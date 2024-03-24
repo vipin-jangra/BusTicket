@@ -5,7 +5,7 @@ import { useTable } from 'react-table'
 export const BasicTable = (props) =>{
 
     const columns = useMemo(()=> props.columns, []);
-    const data = useMemo(()=> props.data,[]);
+    const data = useMemo(()=> props.data,[props.data]);
     
     const tableInstance = useTable({
          columns: columns,
