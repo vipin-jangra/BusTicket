@@ -64,7 +64,7 @@ function DefaultLayout({ children }) {
           </div>
           <div className="content">
             {children}
-            <Outlet />
+            {/* <Outlet /> */}
           </div>
         </div>
       </div>
