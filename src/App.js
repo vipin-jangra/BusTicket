@@ -11,14 +11,14 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          {/* <Route path='/' element={<Navigate to='/reservation' />} />
-          <Route path='/*' element={<DefaultLayout />} >
+          <Route index element={<Navigate to='/reservation' />} />
+          <Route path='' element={<DefaultLayout />} >
             <Route path='reservation' element={<Reservation />} />
             <Route path='dashboard' element={<Dashboard />} />
-          </Route> */}
-          <Route path='/' element={<Navigate to={'/reservation'} />} />
+          </Route>
+          {/* <Route path='/' element={<Navigate to={'/reservation'} />} />
           <Route path='/reservation' element={<DefaultLayout><Reservation /></DefaultLayout>} />
-          <Route path='/dashboard' element={<DefaultLayout><Dashboard /></DefaultLayout>} />
+          <Route path='/dashboard' element={<DefaultLayout><Dashboard /></DefaultLayout>} /> */}
         </Routes>
       </Router>
     </div>
