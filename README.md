@@ -1,5 +1,5 @@
 # Link for demo
-[Live Demo](https://busticket-0bm8.onrender.com/reservation)
+[Live Demo](https://busticket-0bm8.onrender.com)
 
 # Getting Started with Create React App
 
