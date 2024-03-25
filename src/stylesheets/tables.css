@@ -10,7 +10,9 @@
   overflow-y: scroll; /* Make the table scrollable vertically */
   background-color: white;
   margin: 10px;
-  max-height: calc(100vh - 170px); /* Set a maximum height to prevent it from occupying the full viewport height */
+  max-height: calc(
+    100vh - 170px
+  ); /* Set a maximum height to prevent it from occupying the full viewport height */
 }
 
 table {
@@ -60,7 +62,6 @@ table th {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
- 
 }
 
 .table-buttons:hover {

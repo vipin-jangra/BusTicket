@@ -1,63 +1,63 @@
-:root   {
-    --primary : #1c5e39;
-    --secondary : #3b2600;
-    --danger : red;
-    --white : white;
+:root {
+  --primary: #1c5e39;
+  --secondary: #3b2600;
+  --danger: red;
+  --white: white;
 }
 
 .bg-primary {
-    background-color: var(--primary) !important;
+  background-color: var(--primary) !important;
 }
 
-.bg-danger{
-    background-color: var(--danger) !important;
+.bg-danger {
+  background-color: var(--danger) !important;
 }
 
 .bg-secondary {
-    background-color: var(--secondary) !important;
+  background-color: var(--secondary) !important;
 }
-.bg{
-    background-color: rgb(226, 223, 218);
+.bg {
+  background-color: rgb(226, 223, 218);
 }
 
-.bg-white{
-    background-color: var(--white) !important;
+.bg-white {
+  background-color: var(--white) !important;
 }
 
 .text-priamry {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 .text-secondary {
-    color: var(--secondary) !important; 
+  color: var(--secondary) !important;
 }
 
 .text-white {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .text-black {
-    color: #000 !important;
+  color: #000 !important;
 }
 .text-grey {
-    color: rgb(57, 57, 57);
+  color: rgb(57, 57, 57);
 }
 
-.border{
-    border: 1px solid white;
+.border {
+  border: 1px solid white;
 }
-.border-left{
-    border-left: 6px solid rgb(94, 94, 94);
-}
-
-.border-left-2{
-    border-left: 2px solid rgb(172, 172, 172);
+.border-left {
+  border-left: 6px solid rgb(94, 94, 94);
 }
 
-.border-right{
-    border-right: 2px solid rgb(168, 168, 168);
+.border-left-2 {
+  border-left: 2px solid rgb(172, 172, 172);
 }
 
-.block{
-    display: block;
+.border-right {
+  border-right: 2px solid rgb(168, 168, 168);
+}
+
+.block {
+  display: block;
 }

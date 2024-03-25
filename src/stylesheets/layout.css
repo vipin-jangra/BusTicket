@@ -1,61 +1,60 @@
-.layout{
-    display: flex;
-    width:100%;
-    margin: 0;
-    padding: 0;
+.layout {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.sidebar{
-    background-color: var(--primary);
-    padding:15px;
-    border-radius: 3px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    
+.sidebar {
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 3px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
-.menu{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.menu-item{
-    display: flex;
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.active-menu-item{
-    border: 1px solid white;
-}
-.body{
-    width: 100%;
-}
-
-.header{
-    background-color: var(--primary);
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius:3px;
-    width: 100%;
+.menu-item {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
 }
 
-.label{
-    background-color: rgb(247, 63, 63);
-    color: white;
-    text-align: center;
-    padding: 5px;
-    width: 100%;
+.active-menu-item {
+  border: 1px solid white;
+}
+.body {
+  width: 100%;
 }
 
-.dropDown{
-    right: 0;
-    top: 45px;
-    background-color: var(--primary);
-    position: absolute;
-    z-index: 1;
+.header {
+  background-color: var(--primary);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.label {
+  background-color: rgb(247, 63, 63);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.dropDown {
+  right: 0;
+  top: 45px;
+  background-color: var(--primary);
+  position: absolute;
+  z-index: 1;
 }
