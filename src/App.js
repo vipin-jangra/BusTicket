@@ -16,9 +16,6 @@ function App() {
             <Route path='reservation' element={<Reservation />} />
             <Route path='dashboard' element={<Dashboard />} />
           </Route>
-          {/* <Route path='/' element={<Navigate to={'/reservation'} />} />
-          <Route path='/reservation' element={<DefaultLayout><Reservation /></DefaultLayout>} />
-          <Route path='/dashboard' element={<DefaultLayout><Dashboard /></DefaultLayout>} /> */}
         </Routes>
       </Router>
     </div>
